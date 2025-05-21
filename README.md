@@ -1,21 +1,15 @@
-# LVGL on top of Linux graphics stack
+# LVGL on top of Linux - Wayland Driver 
 
 This is an example project demonstrating how to use LVGL on
-a GNU/Linux systems and other Unix-like operating systems
-
-LVGL provides drivers for many graphics backends.
-Legacy framebuffer (fbdev), modern DRM/KMS, Wayland, X11, GLFW3 and SDL2.
-
-Check out this blog post for a step by step tutorial for fbdev
-https://blog.lvgl.io/2018-01-03/linux_fb
+a GNU/Linux systems using Wayland driver.
 
 ## Clone the project
 
 Clone the project
 
 ```
-git clone https://github.com/lvgl/lv_port_linux.git
-cd lv_port_linux/
+git clone https://github.com/LordAuch/lv_port_linux_wayland.git
+cd lv_port_linux_wayland/
 ```
 
 LVGL is a submodule of `lv_port_linux`, use the following command
